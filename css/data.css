@@ -1,0 +1,258 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "STXihei";
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;
+    list-style: none;
+    font-weight:normal;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing:border-box;
+}
+.win{
+    width: 100%;
+    height:44px ;
+    overflow: hidden;
+    /*overflow-x: scroll;*/
+}
+.con{
+    width:560px;
+    height: 42px;
+    margin: 0 20px;
+}
+.clear{
+    clear: both;
+}
+.but{
+    height:44px;
+    width:60px;
+    float:left;
+    font-size: 14px;
+    font-family: "STXihei";
+    color:#4e4e4e;
+    text-align: center;
+    line-height: 44px;
+    background:#ffffff;
+    margin: 0 5px;
+}
+.but-yellow{
+    color:#fed141;
+    border-bottom:2px solid #fed141;
+}
+.but:hover{
+    color:#fed141;
+    border-bottom:2px solid #fed141;
+}
+
+.sc-find{
+    width:100%;
+    /*height:40px;*/
+    background-color: #e2e2e2;
+    text-align: center;
+    line-height: 40px;
+}
+.sc-fd{
+    height:30px;
+    width:95%;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    display:inline-block;
+    margin:5px 0;
+}
+.sc-sou {
+    width: 16px;
+    height:16px;
+    display:inline-block;
+    /*margin-right: 5px;*/
+    background:url("../images/sousuo.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: -5px;
+}
+.sc-suo {
+    height: 16px;
+    font-size: 16px;
+    color:#9c9c9c;
+    display:inline-block;
+
+}
+/*结束*/
+
+
+/*新*/
+.Carousel{
+    width: 100%;
+    height: auto;
+}
+.thumbs{
+    max-width: 1310px;
+    margin: 0 13px;
+}
+.thumb{
+    width: 100%;
+    max-height: 458px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.thumb img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*旧*/
+.banner{
+    width: 100%;
+    /*margin: 0 20px;*/
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.banner img{
+    display: block;
+    width: 16.666%;
+    height: auto;
+    /*position: absolute;*/
+    float: left;
+    border-radius: 15px;
+    /*margin: 0 20px;*/
+}
+.lunbo{
+    width: 600%;
+}
+
+.dian {
+    width:120px;
+    height:12px;
+    position:absolute;
+    bottom: 15px;
+    right: 0;
+    text-align: center;
+}
+.dians{
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    margin-right: 3px;
+    background-color: #ffffff;
+    display:inline-block;
+}
+.dians-yellow {
+    background-color: #fed141;
+}
+
+/*搜索*/
+.sc-con{
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.sc-head{
+    height:82px;
+    width:100%;
+    line-height: 82px;
+}
+.sc-head .sou{
+    display: inline-block;
+    height:36px;
+    width:100%;
+    color:#4e4e4e;
+    font-size: 32px;
+}
+
+.sc-head .sou .ye-con{
+    display: inline-block;
+    margin-left: 26px;
+    margin-right: 16px;
+    width: 16px;
+    height: 30px;
+    margin-bottom: -10px;
+    background-color: #F5CF00;
+    border-radius: 6px;
+
+}
+.sc-head .sou .hot{
+    display:inline-block;
+    font-family: STXihei;
+    /*font-size: 20px;*/
+}
+
+
+
+/*图文列表*/
+.m-list{
+    padding: 0 13px;
+}
+.m-list ul{
+    margin-left: -8px;
+}
+.m-list .hot-list{
+    margin-left: 8px;
+}
+.hot-list a{
+    display: inline-block;
+}
+.hot-pic{
+    background-size: 100% 100%;
+
+}
+.ul-hot li{
+    width: 50%;
+    float: left;
+}
+.hot-pic img{
+    display: block;
+    border: none;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.hot-list h3{
+    width:100%;
+    font-size: 28px;
+    color:#4E4E4E;
+    margin-top: 8px
+}
+.hot-list h4{
+    width:100%;
+    font-size: 24px;
+    color:#9c9c9c;
+    margin-top: 6px ;
+    margin-bottom: 12px;
+}
+.tiao{
+    width: 100%;height: 10px;
+    background-color: #e2e2e2;
+}
+/*热门*/
+.hot-topic{
+    width: 100%;padding: 0;
+    margin-bottom: 10px;
+}
+.hot-topic img{
+    width: 100%;height: auto;
+    display: block;
+}
+.hot-title{
+    padding: 0 13px;
+}
+.hot-title h3{
+    width:100%;
+    font-size: 28px;
+    color:#4E4E4E;
+    margin-top: 16px
+}
+.hot-title h4{
+    width:100%;
+    font-size: 24px;
+    color:#9c9c9c;
+    margin-top: 11px ;
+    margin-bottom: 16px;
+}
